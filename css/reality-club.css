@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* container utama */
+.container-utama {
+    width: 100%;
+    margin: auto;
+}
+
+.container-reality-club {
+    width: 100%;
+    margin: auto;
+    border: 2px solid red;
+}
+
+.img-logo-reality {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.img-hero-reality {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.description-reality-club {
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.description-reality-club p {
+    line-height: 26px;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* section-discord */
+/* Discordlink */
+.container-discordlink {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.title-discordlink {
+    height: 100%;
+}
+
+.title-discordlink .discord {
+    width: 100%;
+    height: 500px;
+}
+/* akhir Discordlink */

@@ -1,0 +1,449 @@
+body, html, * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* container-utama */
+.container-utama{
+    width: 100%;
+    margin: auto;
+}
+
+/* header */
+.header {
+    width: 100%;
+    margin: auto;
+}
+
+.banner-header {
+    width: 100%;
+}
+/* akhir header */
+
+
+/* SECTION MUSIC PROJECT */
+.container-music-project {
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.description-music-project {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+}
+/* akhir SECTION MUSIC PROJECT   */
+
+/* Discordlink */
+.container-discordlink {
+    width: 95%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+}
+
+.title-discordlink {
+    height: 100%;
+}
+
+.title-discordlink .left {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.title-discordlink .right {
+    width: 100%;
+    height: 500px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.title-discordlink.left {
+    border-radius: 5px 0px 0px 5px;
+}
+/* akhir Discordlink */
+
+/* section winner */
+.container-winner {
+    width: 99%;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.title-winner {
+    width: 80%;
+    margin: auto;
+}
+
+.description-winner {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.container-winner a img {
+    width: 90%;
+    margin-top: 70px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.description-winner2 {
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.container-winner .link {
+    display: block;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+.container-winner a button {
+    width: 200px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    padding:10px;
+    border: none;
+    border-radius: 16px;
+    background-color: #c41330;
+    color: #fff;
+}
+/* akhir section winner */
+
+
+/* section mentor */
+.container-mentor {
+    width: 98;
+    margin: auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.description-mentor {
+    width: 90%;
+    margin: auto;
+    padding-top: 45px;
+    font-weight: bold;
+}
+
+.row-mentor-inner {
+    display: flex;
+    width: 90%;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.row-mentor-inner img {
+    width: 100%;
+}
+
+.row-mentor-inner .kiri {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.row-mentor-inner .kanan {
+    border-radius: 0px 5px 5px 0px;
+}
+/* akhir section mentor */
+
+/* khalid-music */
+.container-khalid-music{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+}
+
+.title-music-khalid {
+    width: 100%;
+}
+
+.title-music-khalid img {
+    width: 100%;
+}
+
+.title-music-khalid .left {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.title-music-khalid .right {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.more {
+    width: 140px;
+    position: absolute;
+    right: 170px;
+    bottom: 100px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+/* akhir khalid-music */
+
+/* story */
+.container-story {
+    width: 98%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.title-story {
+    width: 70%;
+    margin: auto;
+}
+
+.description-story {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    font-weight: bold;
+}
+/* akhir the story */
+
+/* band */
+.container-band {
+    width: 98%;
+    margin: auto;
+    padding: 60px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 350px 350px 350px;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.title-band {
+    width: 100%;
+
+}
+
+.title-band img {
+    width: 100%;
+}
+
+.logo-band-satu {
+    width: 200px;
+    height: 30px;
+}
+
+.logo-band {
+    width: 60%;
+}
+
+.logo-band2 {
+    width: 70%;
+}
+
+.logo-band3 {
+    width: 70%;
+    height: 35px;
+}
+
+.description-band {
+    padding-top: 20px;
+}
+
+.description-band2 {
+  padding-top: 23px;
+}
+
+.description-band3 {
+ padding-top: 8px;
+}
+
+.sosmed-band {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.title-sosmed1 {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.title-sosmed2 {
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.title-sosmed3 {
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.title-sosmed1 img {
+    width: 100px;
+    height: 55px;
+    margin-right: 5px;
+}
+
+.title-sosmed2 img {
+    width: 100px;
+    height: 55px;
+    margin-right: 5px;
+}
+
+.title-sosmed3 img {
+    width: 100px;
+    height: 55px;
+    margin-right: 5px;
+}
+/* akhir section band */
+
+/* SECTION PRACTICAL TIPS IN THE DIGITAL ERA */
+.container-practical-tips {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.description-practical-tips {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.container-title-practical {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title-practical {
+    width: 100%;
+    margin: auto;
+}
+
+.title-practical img {
+    width: 330px;
+}
+
+.title-practical a {
+    display: block;
+    width: 210px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 15px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    background-color:  #dc3545;
+    color: #fff;
+}
+
+.title-practical .gray {
+    background-color: #6c757d;
+}
+/* akhir practical tips */
+
+/* SECTION GOING DIGITAL WITH DISCORD */
+.container-going-digital {
+    width: 90%;
+    margin: 30px auto 0px;
+    padding-top: 100px;
+}
+
+.title-going-digital img {
+    width: 50%;
+}
+
+.description-going-digital {
+    width: 90%;
+    margin: 40px  auto 0px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* last1 */
+.container-last1 {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.row-last-section1 {
+    display: flex;
+}
+
+.row-last-section1 img {
+    width: 80%;
+    padding-top: 100px;
+}
+
+.images-last-right1 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+/* last2 */
+.container-last2 {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.row-last-section2 {
+    display: flex;
+}
+
+.row-last-section2 img {
+    width: 80%;
+}
+/* akhir-last-section */
+
+/* footer */
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #c41330;
+}
+
+footer h4 {
+    color: #fff;
+    font-weight: bold;
+    line-height: 60px;
+    text-decoration: #fff;
+}

@@ -1,0 +1,145 @@
+/* responsive breakpoint */
+
+
+/* ukuran tablet */
+@media screen and (min-width: 768px) {
+
+    /* discordlink */
+    .container-discordlink {
+        width: 90%;
+    }
+
+    .title-discordlink {
+        height: 400px;
+    }
+
+    .title-discordlink .left{
+        height: 80%;
+    }
+
+    .title-discordlink .right{
+        height: 80%;
+    }
+    /* akhir discordlink */
+
+    /* section winner */
+    .container-winner {
+        width: 100%;
+        margin: auto;
+        border: 2px salmon;
+    }
+
+    .img-winner{
+        width: 90%;
+    }
+    /* akhir section winner */
+
+    /* section band */
+    .container-band {
+        display: none;
+    }
+
+    /* practical-tips */
+    .title-practical img {
+        width: 100%;
+    }
+
+    .title-practical a {
+        width: 160px;
+        height: auto;
+        font-size: 13px;
+    }
+
+}
+/* akhir ukuran tablet */
+
+/* ukuran mobile */
+@media screen and (width: 576px) {
+
+    /* SECTION MUSIC PROJECT */
+    .container-music-project {
+        width: 98%;
+        margin: auto;
+    }
+
+    .img-music-project {
+        width: 70%;
+        margin: auto;
+    }
+    /* akhir SECTION MUSIC PROJECT */
+
+    /* SECTION Discord */
+    .container-discordlink {
+        width: 95%;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .title-discordlink {
+        width: 100%;
+        margin: auto;
+    }
+
+    .title-discordlink .left {
+        width: 90%;
+        height: 35%;
+        margin: auto;
+    }
+
+    .title-discordlink .right {
+        width: 90%;
+        height: 350px;
+        margin: auto;
+        padding-top: 40px;
+    }
+    /* akhir section discordlinks */
+
+    /* SECTION WINNER */
+        .container-winner {
+            width: 90%;
+        }
+
+        .title-winner {
+            width: 100%;
+        }
+
+        .title-winner img {
+            width: 100%;
+        }
+        /* akhir section winner */
+
+        /* section band */
+        .container-band {
+           display: none;
+        }
+
+    /* practical-tips */
+    .container-practical-tips {
+        width: 90%;
+    }
+
+    .container-title-practical {
+        width: 100%;
+        gap: 0;
+    }
+
+    .title-section img {
+        width: 100%;
+    }
+
+    .title-practical {
+        width: 100%;
+    }
+
+    .title-practical img {
+        width: 100%;
+    }
+
+    .title-practical a {
+        width: 100px;
+        line-height: 20px;
+        height: 20px;
+        font-size: 7px;
+    }
+}
