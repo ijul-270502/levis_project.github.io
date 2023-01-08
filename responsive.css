@@ -54,7 +54,7 @@
 /* akhir ukuran tablet */
 
 /* ukuran mobile */
-@media screen and (width: 576px) {
+@media screen and (min-width: 576px) {
 
     /* SECTION MUSIC PROJECT */
     .container-music-project {
@@ -141,5 +141,55 @@
         line-height: 20px;
         height: 20px;
         font-size: 7px;
+    }
+}
+
+/* mobile L */ 
+@media screen and (min-width: 425px) {
+    .container-utama {
+        width: 100%;
+    }
+
+    .container-band {
+        display: block;
+    }
+
+    .description-band {
+        padding-bottom: 50px;
+    }
+
+    .description-band2 {
+        padding-bottom: 50px;
+    }
+
+    .description-band3 {
+        padding-bottom: 50px;
+    }
+
+    .sosmed-band {
+        display: none;
+    }
+
+    .container-practical-tips {
+        margin-top: -60px;
+    }
+
+    .container-title-practical {
+        display: block;
+    }
+
+    .title-practical {
+        width: 100%;
+        margin-top: -40px;
+        margin-bottom: 70px;
+    }
+
+    .title-practical img {
+        width: 100%;
+    }
+
+    .title-practical a {
+        display: block;
+        margin-bottom: 30px;
     }
 }

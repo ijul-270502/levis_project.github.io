@@ -42,6 +42,10 @@ body {
     margin: auto;
     padding-top: 40px;
 }
+
+.img-music-project {
+    width: 90%;
+}
 /* akhir SECTION MUSIC PROJECT   */
 
 /* Discordlink */
@@ -58,16 +62,14 @@ body {
 
 .title-discordlink .left {
     width: 100%;
+    height: 100%;
     border-radius: 5px 0px 0px 5px;
 }
 
 .title-discordlink .right {
     width: 100%;
+    height: 100%;
     border-radius: 0px 5px 5px 0px;
-}
-
-.title-discordlink.left {
-    border-radius: 5px 0px 0px 5px;
 }
 /* akhir Discordlink */
 
@@ -123,6 +125,10 @@ body {
     border-radius: 16px;
     background-color: #c41330;
     color: #fff;
+}
+
+.img-winner {
+    width: 100%;
 }
 /* akhir section winner */
 
@@ -208,7 +214,7 @@ body {
 }
 
 .title-story {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
@@ -344,8 +350,8 @@ body {
     margin: auto;
 }
 
-.title-practical img {
-    width: 330px;
+.img-tips {
+    width: 100%;
 }
 
 .title-practical a {
