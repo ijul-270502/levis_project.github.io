@@ -218,6 +218,10 @@ body {
     margin: auto;
 }
 
+.title-story img {
+    width: 90%;
+}
+
 .description-story {
     width: 80%;
     margin: auto;
@@ -240,11 +244,10 @@ body {
 
 .title-band {
     width: 100%;
-
 }
 
 .title-band img {
-    width: 100%;
+    width:  100%;
 }
 
 .logo-band-satu {
@@ -350,8 +353,12 @@ body {
     margin: auto;
 }
 
-.img-tips {
+.title-practical img {
     width: 100%;
+}
+
+.img-tips {
+    width: 80%;
 }
 
 .title-practical a {
@@ -386,7 +393,7 @@ body {
 }
 
 .title-going-digital img {
-    width: 80%;
+    width: 70%;
 }
 
 .description-going-digital {
