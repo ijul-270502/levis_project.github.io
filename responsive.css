@@ -2,7 +2,7 @@
 
 
 /* ukuran tablet */
-@media screen and (min-width: 768px) {
+@media screen and (width: 768px) {
 
     /* discordlink */
     .container-discordlink {
@@ -54,7 +54,7 @@
 /* akhir ukuran tablet */
 
 /* ukuran mobile */
-@media screen and (min-width: 576px) {
+@media screen and (width: 576px) {
 
     /* SECTION MUSIC PROJECT */
     .container-music-project {
@@ -145,7 +145,7 @@
 }
 
 /* mobile L */ 
-@media screen and (min-width: 425px) {
+@media screen and (width: 425px) {
     .container-utama {
         width: 100%;
     }
