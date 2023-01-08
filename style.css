@@ -141,6 +141,14 @@ body {
     text-align: center;
 }
 
+.title-mentor{
+    width: 100%;
+}
+
+.title-mentor img {
+    width: 60%;
+}
+
 .description-mentor {
     width: 90%;
     margin: auto;
