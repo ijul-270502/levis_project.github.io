@@ -227,7 +227,7 @@ body {
 }
 
 .title-story img {
-    width: 90%;
+    width: 60%;
 }
 
 .description-story {
@@ -243,7 +243,6 @@ body {
     width: 98%;
     margin: auto;
     padding: 60px;
-    display: grid;
     justify-content: center;
     grid-template-columns: 350px 350px 350px;
     gap: 5px;
@@ -252,10 +251,11 @@ body {
 
 .title-band {
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .title-band img {
-    width:  100%;
+    width:  50%;
 }
 
 .logo-band-satu {
@@ -272,20 +272,23 @@ body {
 }
 
 .logo-band3 {
-    width: 70%;
-    height: 35px;
+    width: 50%;
+    height: 80px;
 }
 
 .description-band {
     padding-top: 20px;
+    margin-bottom: 50px;
 }
 
 .description-band2 {
   padding-top: 23px;
+  margin-bottom: 50px;
 }
 
 .description-band3 {
  padding-top: 8px;
+ margin-bottom: 50px;
 }
 
 .sosmed-band {
