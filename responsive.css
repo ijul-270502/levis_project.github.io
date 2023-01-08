@@ -193,3 +193,68 @@
         margin-bottom: 30px;
     }
 }
+
+/* mobile L */ 
+@media screen and (width: 375px) {
+    .container-utama {
+        width: 100%;
+    }
+
+    .container-band {
+        display: block;
+    }
+
+    .description-band {
+        padding-bottom: 50px;
+    }
+
+    .description-band2 {
+        padding-bottom: 50px;
+    }
+
+    .description-band3 {
+        padding-bottom: 50px;
+    }
+
+    .sosmed-band {
+        display: none;
+    }
+
+    .container-practical-tips {
+        margin-top: -60px;
+    }
+
+    .container-title-practical {
+        display: block;
+    }
+
+    .title-practical {
+        width: 100%;
+        margin-top: -40px;
+        margin-bottom: 70px;
+    }
+
+    .title-practical img {
+        width: 100%;
+    }
+
+    .title-practical a {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .more {
+        width: 120px;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        font-weight: bold;
+        padding: 5px 7px;
+    }
+
+    .title-mentor img {
+        width: 80%;
+    }
+}
