@@ -343,6 +343,7 @@ body {
     width: 90%;
     margin: auto;
     padding-top: 50px;
+    text-align: center;
 }
 
 .description-practical-tips {
@@ -403,6 +404,7 @@ body {
     width: 90%;
     margin: 30px auto 0px;
     padding-top: 100px;
+    text-align: center;
 }
 
 .title-going-digital img {
